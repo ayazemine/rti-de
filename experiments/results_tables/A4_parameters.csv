@@ -1,0 +1,23 @@
+Algorithm,Parameter,Value,Implementation
+RTI-DE,n_init,18 D,RTIDE/optimizer.py
+RTI-DE,n_min,4,RTIDE/optimizer.py
+RTI-DE,p,0.11,RTIDE/optimizer.py
+RTI-DE,chain,2,RTIDE/optimizer.py
+RTI-DE,chain_from,0.7,RTIDE/optimizer.py
+RTI-DE,CR,0.9,RTIDE/optimizer.py
+RTI-DE,lpsr,True,RTIDE/optimizer.py
+RTI-DE,adapt,True,RTIDE/optimizer.py
+RTI-DE,F,"N(mu_F, 0.15^2) in [0.05, 1], mu_F(0) = 0.5",RTIDE/optimizer.py
+DE,F,0.5,benchmarks/de_reference.py
+DE,CR,0.9,benchmarks/de_reference.py
+LSHADE,n_init,18 D,benchmarks/lshade_reference.py
+LSHADE,n_min,4,benchmarks/lshade_reference.py
+LSHADE,H,6,benchmarks/lshade_reference.py
+LSHADE,p,0.11,benchmarks/lshade_reference.py
+LSHADE,arc_rate,2.6,benchmarks/lshade_reference.py
+RIME,sr,5.0,mealpy 3.0.3 physics_based.RIME.OriginalRIME
+PSO,c1,2.05,mealpy 3.0.3 swarm_based.PSO.OriginalPSO
+PSO,c2,2.05,mealpy 3.0.3 swarm_based.PSO.OriginalPSO
+PSO,w,0.4,mealpy 3.0.3 swarm_based.PSO.OriginalPSO
+GWO,—,—,mealpy 3.0.3 swarm_based.GWO.OriginalGWO
+WOA,—,—,mealpy 3.0.3 swarm_based.WOA.OriginalWOA

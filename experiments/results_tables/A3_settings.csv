@@ -1,0 +1,12 @@
+Setting,CEC2022,CEC2017,Laminate,Laminate (contiguity),UAV
+Dimension $D$,20,100,16,16,30
+Population size,"RTI-DE, L-SHADE: 360 to 4; all others: 50","RTI-DE, L-SHADE: 1800 to 4; all others: 50","RTI-DE, L-SHADE: 288 to 4; all others: 50","RTI-DE, L-SHADE: 288 to 4; all others: 50","RTI-DE, L-SHADE: 540 to 4; all others: 50"
+Budget (FEs),"1\,000\,000","1\,000\,000","50\,050","50\,050","50\,050"
+Budget set by,MaxFES,MaxFES,"$N(T + 1)$, $N = 50$, $T = 1000$","$N(T + 1)$, $N = 50$, $T = 1000$","$N(T + 1)$, $N = 50$, $T = 1000$"
+Stop at error $< 10^{-8}$,yes,yes,no,no,no
+Independent runs,30,30,30,30,30
+Seeds,0--29,0--29,0--29,0--29,0--29
+Functions,12,29,1,1,1
+Python / numpy / scipy,3.11.9 / 1.26.0 / 1.16.3,3.11.9 / 1.26.0 / 1.16.3,3.11.9 / 1.26.0 / 1.16.3,3.11.9 / 1.26.0 / 1.16.3,3.11.9 / 1.26.0 / 1.16.3
+mealpy,3.0.3,3.0.3,3.0.3,3.0.3,3.0.3
+CPU cores / workers,64 / 32,64 / 32,64 / 31,64 / 31,64 / 31

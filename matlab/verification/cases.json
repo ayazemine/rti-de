@@ -1,0 +1,21 @@
+{
+  "trace_cases": [
+    {"name": "sphere_D10",          "func": "sphere",          "dim": 10, "lb": -5.0, "ub": 5.0, "max_fes": 10000, "seed": 0, "options": {}},
+    {"name": "rastrigin_D10",       "func": "rastrigin",       "dim": 10, "lb": -5.12, "ub": 5.12, "max_fes": 10000, "seed": 1, "options": {}},
+    {"name": "shifted_sphere_D10",  "func": "shifted_sphere",  "dim": 10, "lb": -5.0, "ub": 5.0, "max_fes": 9999, "seed": 2, "options": {}},
+    {"name": "rastrigin_D10_noCR_halfstep", "func": "rastrigin", "dim": 10, "lb": -5.12, "ub": 5.12, "max_fes": 6000, "seed": 3,
+     "options": {"CR": null, "chain": 1, "chain_from": 0.3}},
+    {"name": "rastrigin_D10_nolpsr_fixedF", "func": "rastrigin", "dim": 10, "lb": -5.12, "ub": 5.12, "max_fes": 6000, "seed": 4,
+     "options": {"lpsr": false, "adapt": false, "n_init": 40, "n_min": 6, "p": 0.2, "CR": 0.7}},
+    {"name": "rastrigin_nan_D10_chainAlways", "func": "rastrigin_nan", "dim": 10, "lb": -5.0, "ub": 5.0, "max_fes": 6000, "seed": 5,
+     "options": {"chain_from": 0.0}},
+    {"name": "sphere_D2_tiny",      "func": "sphere",          "dim": 2, "lb": -1.0, "ub": 1.0, "max_fes": 500, "seed": 6, "options": {"n_init": 10}}
+  ],
+  "count_cases": [
+    {"func": "rastrigin", "dim": 8, "lb": -5.0, "ub": 5.0, "max_fes": 1000},
+    {"func": "rastrigin", "dim": 8, "lb": -5.0, "ub": 5.0, "max_fes": 2357},
+    {"func": "rastrigin", "dim": 8, "lb": -5.0, "ub": 5.0, "max_fes": 100}
+  ],
+  "stat": {"funcs": ["sphere", "rastrigin", "rosenbrock"], "dim": 10, "lb": -5.0, "ub": 5.0,
+           "max_fes": 20000, "runs": 30, "seed_base": 0}
+}

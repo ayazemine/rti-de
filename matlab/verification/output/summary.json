@@ -1,0 +1,1035 @@
+{
+  "rules": {
+    "par_t": {
+      "shape_equal": true,
+      "n": 2013,
+      "bit_identical": true,
+      "n_unequal": 0,
+      "nonfinite_equal": true,
+      "max_abs": 0.0,
+      "max_rel": 0.0
+    },
+    "par_ok": {
+      "shape_equal": true,
+      "n": 2013,
+      "bit_identical": true,
+      "n_unequal": 0,
+      "nonfinite_equal": true,
+      "max_abs": 0.0,
+      "max_rel": 0.0
+    },
+    "rep_V": {
+      "shape_equal": true,
+      "n": 3500,
+      "bit_identical": true,
+      "n_unequal": 0,
+      "nonfinite_equal": true,
+      "max_abs": 0.0,
+      "max_rel": 0.0
+    },
+    "muF": {
+      "shape_equal": true,
+      "n": 14,
+      "bit_identical": true,
+      "n_unequal": 0,
+      "nonfinite_equal": true,
+      "max_abs": 0.0,
+      "max_rel": 0.0
+    },
+    "lpsr": {
+      "shape_equal": true,
+      "n": 616,
+      "bit_identical": true,
+      "n_unequal": 0,
+      "nonfinite_equal": true,
+      "max_abs": 0.0,
+      "max_rel": 0.0
+    },
+    "elite": {
+      "shape_equal": true,
+      "n": 1588,
+      "bit_identical": true,
+      "n_unequal": 0,
+      "nonfinite_equal": true,
+      "max_abs": 0.0,
+      "max_rel": 0.0
+    },
+    "sum_out": {
+      "shape_equal": true,
+      "n": 400,
+      "bit_identical": true,
+      "n_unequal": 0,
+      "nonfinite_equal": true,
+      "max_abs": 0.0,
+      "max_rel": 0.0
+    }
+  },
+  "octave_known_answer_checks": {
+    "passed": 31,
+    "total": 31
+  },
+  "trace": {
+    "sphere_D10": {
+      "x": {
+        "shape_equal": true,
+        "n": 10,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "f": {
+        "shape_equal": true,
+        "n": 1,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fes": {
+        "shape_equal": true,
+        "n": 1,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_fes": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_n": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_mu_F": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_f_best": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_evaluated": {
+        "shape_equal": true,
+        "n": 642,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_accepted": {
+        "shape_equal": true,
+        "n": 642,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_improved": {
+        "shape_equal": true,
+        "n": 642,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_skipped": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "theta": {
+        "shape_equal": true,
+        "n": 346,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "theta_accepted": {
+        "shape_equal": true,
+        "n": 346,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "generations_py": 214,
+      "generations_oct": 214,
+      "draws_left_unused": 0
+    },
+    "rastrigin_D10": {
+      "x": {
+        "shape_equal": true,
+        "n": 10,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "f": {
+        "shape_equal": true,
+        "n": 1,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fes": {
+        "shape_equal": true,
+        "n": 1,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_fes": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_n": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_mu_F": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_f_best": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_evaluated": {
+        "shape_equal": true,
+        "n": 642,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_accepted": {
+        "shape_equal": true,
+        "n": 642,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_improved": {
+        "shape_equal": true,
+        "n": 642,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_skipped": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "theta": {
+        "shape_equal": true,
+        "n": 985,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "theta_accepted": {
+        "shape_equal": true,
+        "n": 985,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "generations_py": 214,
+      "generations_oct": 214,
+      "draws_left_unused": 0
+    },
+    "shifted_sphere_D10": {
+      "x": {
+        "shape_equal": true,
+        "n": 10,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "f": {
+        "shape_equal": true,
+        "n": 1,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fes": {
+        "shape_equal": true,
+        "n": 1,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_fes": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_n": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_mu_F": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_f_best": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_evaluated": {
+        "shape_equal": true,
+        "n": 642,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_accepted": {
+        "shape_equal": true,
+        "n": 642,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_improved": {
+        "shape_equal": true,
+        "n": 642,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_skipped": {
+        "shape_equal": true,
+        "n": 214,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "theta": {
+        "shape_equal": true,
+        "n": 285,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "theta_accepted": {
+        "shape_equal": true,
+        "n": 285,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "generations_py": 214,
+      "generations_oct": 214,
+      "draws_left_unused": 0
+    },
+    "rastrigin_D10_noCR_halfstep": {
+      "x": {
+        "shape_equal": true,
+        "n": 10,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "f": {
+        "shape_equal": true,
+        "n": 1,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fes": {
+        "shape_equal": true,
+        "n": 1,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_fes": {
+        "shape_equal": true,
+        "n": 127,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_n": {
+        "shape_equal": true,
+        "n": 127,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_mu_F": {
+        "shape_equal": true,
+        "n": 127,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_f_best": {
+        "shape_equal": true,
+        "n": 127,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_evaluated": {
+        "shape_equal": true,
+        "n": 381,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_accepted": {
+        "shape_equal": true,
+        "n": 381,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_improved": {
+        "shape_equal": true,
+        "n": 381,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_skipped": {
+        "shape_equal": true,
+        "n": 127,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "theta": {
+        "shape_equal": true,
+        "n": 0,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "theta_accepted": {
+        "shape_equal": true,
+        "n": 0,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "generations_py": 127,
+      "generations_oct": 127,
+      "draws_left_unused": 0
+    },
+    "rastrigin_D10_nolpsr_fixedF": {
+      "x": {
+        "shape_equal": true,
+        "n": 10,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "f": {
+        "shape_equal": true,
+        "n": 1,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fes": {
+        "shape_equal": true,
+        "n": 1,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_fes": {
+        "shape_equal": true,
+        "n": 149,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_n": {
+        "shape_equal": true,
+        "n": 149,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_mu_F": {
+        "shape_equal": true,
+        "n": 149,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_f_best": {
+        "shape_equal": true,
+        "n": 149,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_evaluated": {
+        "shape_equal": true,
+        "n": 447,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_accepted": {
+        "shape_equal": true,
+        "n": 447,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_improved": {
+        "shape_equal": true,
+        "n": 447,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_skipped": {
+        "shape_equal": true,
+        "n": 149,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "theta": {
+        "shape_equal": true,
+        "n": 585,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "theta_accepted": {
+        "shape_equal": true,
+        "n": 585,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "generations_py": 149,
+      "generations_oct": 149,
+      "draws_left_unused": 0
+    },
+    "rastrigin_nan_D10_chainAlways": {
+      "x": {
+        "shape_equal": true,
+        "n": 10,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "f": {
+        "shape_equal": true,
+        "n": 1,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fes": {
+        "shape_equal": true,
+        "n": 1,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_fes": {
+        "shape_equal": true,
+        "n": 127,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_n": {
+        "shape_equal": true,
+        "n": 127,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_mu_F": {
+        "shape_equal": true,
+        "n": 127,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_f_best": {
+        "shape_equal": true,
+        "n": 127,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_evaluated": {
+        "shape_equal": true,
+        "n": 381,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_accepted": {
+        "shape_equal": true,
+        "n": 381,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_improved": {
+        "shape_equal": true,
+        "n": 381,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_skipped": {
+        "shape_equal": true,
+        "n": 127,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "theta": {
+        "shape_equal": true,
+        "n": 1581,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "theta_accepted": {
+        "shape_equal": true,
+        "n": 1581,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "generations_py": 127,
+      "generations_oct": 127,
+      "draws_left_unused": 0
+    },
+    "sphere_D2_tiny": {
+      "x": {
+        "shape_equal": true,
+        "n": 2,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "f": {
+        "shape_equal": true,
+        "n": 1,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "fes": {
+        "shape_equal": true,
+        "n": 1,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_fes": {
+        "shape_equal": true,
+        "n": 76,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_n": {
+        "shape_equal": true,
+        "n": 76,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_mu_F": {
+        "shape_equal": true,
+        "n": 76,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_f_best": {
+        "shape_equal": true,
+        "n": 76,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_evaluated": {
+        "shape_equal": true,
+        "n": 228,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_accepted": {
+        "shape_equal": true,
+        "n": 228,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_improved": {
+        "shape_equal": true,
+        "n": 228,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "gen_skipped": {
+        "shape_equal": true,
+        "n": 76,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "theta": {
+        "shape_equal": true,
+        "n": 25,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "theta_accepted": {
+        "shape_equal": true,
+        "n": 25,
+        "bit_identical": true,
+        "n_unequal": 0,
+        "nonfinite_equal": true,
+        "max_abs": 0.0,
+        "max_rel": 0.0
+      },
+      "generations_py": 76,
+      "generations_oct": 76,
+      "draws_left_unused": 0
+    }
+  },
+  "counts": {
+    "columns": [
+      "max_fes",
+      "fes returned",
+      "evaluations counted",
+      "calls"
+    ],
+    "python": [
+      [
+        1000.0,
+        1000.0,
+        1000.0,
+        24.0
+      ],
+      [
+        2357.0,
+        2357.0,
+        2357.0,
+        59.0
+      ],
+      [
+        100.0,
+        144.0,
+        144.0,
+        1.0
+      ]
+    ],
+    "octave": [
+      [
+        1000.0,
+        1000.0,
+        1000.0,
+        24.0
+      ],
+      [
+        2357.0,
+        2357.0,
+        2357.0,
+        59.0
+      ],
+      [
+        100.0,
+        144.0,
+        144.0,
+        1.0
+      ]
+    ]
+  },
+  "stat": {
+    "sphere": {
+      "n_py": 30,
+      "n_oct": 30,
+      "median_py": 2.5105684584671018e-26,
+      "median_oct": 4.970576310863005e-26,
+      "q25_py": 3.613301490159825e-27,
+      "q75_py": 2.5696757118068475e-25,
+      "q25_oct": 7.963441439722072e-27,
+      "q75_oct": 6.652407530127958e-25,
+      "mean_py": 1.0283263876911265e-24,
+      "mean_oct": 6.665709629501003e-24,
+      "mannwhitney_U": 394.0,
+      "p_value": 0.4119108371475996
+    },
+    "rastrigin": {
+      "n_py": 30,
+      "n_oct": 30,
+      "median_py": 2.208408391406536,
+      "median_oct": 2.8479089504850563,
+      "q25_py": 1.8548855799345745,
+      "q75_py": 3.4198051825318707,
+      "q25_oct": 1.711452055050131,
+      "q75_oct": 3.4152160790934367,
+      "mean_py": 3.292965467446536,
+      "mean_oct": 3.8470568028139387,
+      "mannwhitney_U": 426.0,
+      "p_value": 0.7282652959955469
+    },
+    "rosenbrock": {
+      "n_py": 30,
+      "n_oct": 30,
+      "median_py": 0.09467061290391711,
+      "median_oct": 0.1607630573171441,
+      "q25_py": 0.055163849739801506,
+      "q75_py": 0.3734352085171446,
+      "q25_oct": 0.06526850288395955,
+      "q75_oct": 0.3036259674864867,
+      "mean_py": 0.2110924318231789,
+      "mean_oct": 0.2690709806194762,
+      "mannwhitney_U": 400.0,
+      "p_value": 0.46427291062161524
+    }
+  },
+  "env_py": {
+    "python": "3.11.9",
+    "numpy": "1.26.0",
+    "platform": "Windows-10-10.0.26340-SP0",
+    "processor": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+    "optimizer_sha256": "2ccf110bd39d153141fdf48d97568e17dbd837fc4ec79487529edbef46a4e45b",
+    "stat_runtime_s": 10.7
+  },
+  "env_oct": {
+    "octave": "11.3.0",
+    "computer": "x86_64-w64-mingw32",
+    "rng": "rng(seed, 'twister')",
+    "stat_runtime_s": 39.7,
+    "total_runtime_s": 42.9
+  },
+  "scipy": "1.16.3"
+}

@@ -1,0 +1,13 @@
+No,Function,Category,F*,Search range
+F1,Shifted and full Rotated Zakharov Function,Unimodal,300.0,"[-100, 100]"
+F2,Shifted and full Rotated Rosenbrock's Function,Basic,400.0,"[-100, 100]"
+F3,Shifted and full Rotated Expanded Schaffer's f6 Function,Basic,600.0,"[-100, 100]"
+F4,Shifted and full Rotated Non-Continuous Rastrigin's Function,Basic,800.0,"[-100, 100]"
+F5,Shifted and full Rotated Levy Function,Basic,900.0,"[-100, 100]"
+F6,Hybrid Function 1 (N = 3),Hybrid,1800.0,"[-100, 100]"
+F7,Hybrid Function 2 (N = 6),Hybrid,2000.0,"[-100, 100]"
+F8,Hybrid Function 3 (N = 5),Hybrid,2200.0,"[-100, 100]"
+F9,Composition Function 1 (N = 5),Composition,2300.0,"[-100, 100]"
+F10,Composition Function 2 (N = 4),Composition,2400.0,"[-100, 100]"
+F11,Composition Function 3 (N = 5),Composition,2600.0,"[-100, 100]"
+F12,Composition Function 4 (N = 6),Composition,2700.0,"[-100, 100]"

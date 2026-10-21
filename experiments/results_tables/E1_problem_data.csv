@@ -1,0 +1,23 @@
+problem,parameter,value
+Laminate,Material,graphite-epoxy
+Laminate,"$E_1$, $E_2$, $G_{12}$ (Msi)","18.5, 1.89, 0.93"
+Laminate,$\nu_{12}$,0.3
+Laminate,"Plies, ply thickness (in)","64, 0.005"
+Laminate,Plate $a \times b$ (in),20 $\times$ 10
+Laminate,"Loads $N_x$, $N_y$ (lb/in)","1, 1"
+Laminate,Design variables,"16 two-ply stacks, each $0_2$, $\pm45$ or $90_2$"
+Laminate,"Buckling modes $p, q$",1--10
+Laminate,"Contiguity limit, penalty","4 plies, 1000 per violating stack"
+UAV,Terrain map (cells),1045 $\times$ 879
+UAV,Start; goal,"(200, 100, 150); (800, 800, 150)"
+UAV,"Path nodes, design variables","10, 30"
+UAV,Altitude above ground,100--200
+UAV,"UAV size, danger distance","1, 10"
+UAV,"Maximum turning, climb angle","45$^\circ$, 45$^\circ$"
+UAV,"Cost weights $b_1, \dots, b_4$","5, 1, 10, 1"
+UAV,"Threat 1: centre, radius","(400, 500), 80"
+UAV,"Threat 2: centre, radius","(600, 200), 70"
+UAV,"Threat 3: centre, radius","(500, 350), 80"
+UAV,"Threat 4: centre, radius","(350, 200), 70"
+UAV,"Threat 5: centre, radius","(700, 550), 70"
+UAV,"Threat 6: centre, radius","(650, 750), 80"

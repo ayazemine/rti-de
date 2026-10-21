@@ -1,0 +1,11 @@
+# Package versions used for run_experiments.py, scripts/make_tables.py, scripts/make_figures.py
+# and the tests (Python 3.11.9, Windows). Install into a fresh environment:
+#   py -3.11 -m venv .venv
+#   .venv\Scripts\activate            (Linux: source .venv/bin/activate)
+#   pip install -r requirements-experiments.txt
+numpy==1.26.0
+scipy==1.16.3
+pandas==3.0.6
+matplotlib==3.11.2
+pillow==12.3.0
+mealpy==3.0.3

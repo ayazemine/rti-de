@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use RTI-DE in your research, please cite the paper below."
+title: "Rejected-Trial Interpolation Differential Evolution with Applications to Composite Laminate Design and UAV Path Planning"
+type: software
+authors:
+  - family-names: Ayaz
+    given-names: Emine
+    affiliation: "Department of Computer Engineering, Bitlis Eren University"
+repository-code: "https://github.com/ayazemine/rti-de"
+license: MIT
+version: 1.0.0
