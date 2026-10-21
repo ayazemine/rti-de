@@ -25,6 +25,32 @@ experiments/         code of the experiments of the paper (benchmarks, engineeri
                      experiment runner, table and figure scripts, their tests)
 ```
 
+## Publishing to PyPI
+
+Releases are built and published from GitHub tags using PyPI Trusted Publishing. To enable the
+first release, sign in to PyPI as `emineayaz` and add a pending publisher at
+<https://pypi.org/manage/account/publishing/> with these values:
+
+- PyPI project name: `rtide-optimizer`
+- GitHub owner: `ayazemine`
+- GitHub repository: `rti-de`
+- Workflow: `publish.yml`
+- GitHub environment: `pypi`
+
+Create the `pypi` environment in the GitHub repository settings and require a reviewer before
+publishing. The pending publisher does not reserve the project name until its first successful
+upload.
+
+For each release, update `version` in `pyproject.toml`, create a matching `v<version>` tag, and
+push it to GitHub. For example, the current `1.0.0` version can be published with:
+
+```bash
+git tag v1.0.0
+git push origin v1.0.0
+```
+
+The workflow builds and checks the distributions before publishing them to PyPI.
+
 ## Installation (Python)
 
 The only dependency is NumPy; the code was tested with Python 3.11.9 and NumPy 1.26.0.
